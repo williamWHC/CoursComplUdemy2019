@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex39ClasseMetodosAtributosE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExCursoProdutoCrud", "ExCursoProdutoCrud\ExCursoProdutoCrud.csproj", "{E5DB6551-E0B2-4E29-AAFB-E7ADD3840189}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExerciciosMenbrosEstáticos", "ExerciciosMenbrosEstáticos", "{0FADFF0B-65E2-4374-B545-41E14BE4650C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExCotacaoMoedaMenbroEstatico", "ExCotacaoMoedaMenbroEstatico\ExCotacaoMoedaMenbroEstatico.csproj", "{54F888E6-8E42-48F9-B982-734A098FAFBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +117,10 @@ Global
 		{E5DB6551-E0B2-4E29-AAFB-E7ADD3840189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5DB6551-E0B2-4E29-AAFB-E7ADD3840189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5DB6551-E0B2-4E29-AAFB-E7ADD3840189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F888E6-8E42-48F9-B982-734A098FAFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F888E6-8E42-48F9-B982-734A098FAFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F888E6-8E42-48F9-B982-734A098FAFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F888E6-8E42-48F9-B982-734A098FAFBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +131,7 @@ Global
 		{3B301B6B-0C8E-42A4-A5A1-A9C9DCE954CD} = {AD2D49FF-17EA-4988-B36B-D35581E00501}
 		{5A532A77-25CB-4010-BAE4-9024DF63770E} = {AD2D49FF-17EA-4988-B36B-D35581E00501}
 		{E5DB6551-E0B2-4E29-AAFB-E7ADD3840189} = {AD2D49FF-17EA-4988-B36B-D35581E00501}
+		{54F888E6-8E42-48F9-B982-734A098FAFBB} = {0FADFF0B-65E2-4374-B545-41E14BE4650C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81DB2757-9825-4E40-BED1-D56BB12669BE}

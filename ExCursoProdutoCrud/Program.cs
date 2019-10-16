@@ -11,22 +11,24 @@ namespace ExCursoProdutoCrud
     {
         static void Main(string[] args)
         {
-            Produto product;
-
-            product = new Produto();
 
             //Entrada do Nome
             Console.WriteLine("Entre com os dados do produto: ");
             Console.Write("Nome: ");
-            product.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
 
             //Entrada do Preço
             Console.Write("Preço: ");
-            product.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             //Quantidade
             Console.Write("Quantidade no Estoque: ");
-            product.Quantidade = int.Parse(Console.ReadLine());
+            int quantidade = int.Parse(Console.ReadLine());
+
+            //instanciar a class produto
+            Produto product = new Produto(nome, preco, quantidade);
+
+
 
             //Primeira saida da Tela
             Console.WriteLine($"Dados do produto: {product}");

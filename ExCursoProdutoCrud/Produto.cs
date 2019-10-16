@@ -13,6 +13,14 @@ namespace ExCursoProdutoCrud
         public double Preco;
         public int Quantidade;
 
+        //Construtor
+        public Produto(string nome, double preco, int quantidade)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
+        }
+
 
         public double ValorTotalEmEstoque()
         {
