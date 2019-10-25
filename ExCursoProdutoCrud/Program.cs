@@ -12,7 +12,8 @@ namespace ExCursoProdutoCrud
         static void Main(string[] args)
         {
 
-            //Entrada do Nome
+
+
             Console.WriteLine("Entre com os dados do produto: ");
             Console.Write("Nome: ");
             string nome = Console.ReadLine();
@@ -25,10 +26,11 @@ namespace ExCursoProdutoCrud
             Console.Write("Quantidade no Estoque: ");
             int quantidade = int.Parse(Console.ReadLine());
 
-            //instanciar a class produto
-            Produto product = new Produto(nome, preco, quantidade);
+            //Instancia da Construtor
+            Produto product1 = new Produto(nome, preco, quantidade);
 
-
+            //instanciar a Sobregar da class Produto
+            Produto product = new Produto(nome, preco);
 
             //Primeira saida da Tela
             Console.WriteLine($"Dados do produto: {product}");
