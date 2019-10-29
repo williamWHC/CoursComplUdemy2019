@@ -73,6 +73,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "switch-case", "switch-case"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExSwitchCase01", "ExSwitchCase01\ExSwitchCase01.csproj", "{6CD51E84-2AF9-4932-8E1A-8C3CB0620A46}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExpressãoCondcionalTernária", "ExpressãoCondcionalTernária", "{4A4DD9A3-2F65-4850-BAC7-B46E452CAE30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressãoTernaria01", "ExpressãoTernaria01\ExpressãoTernaria01.csproj", "{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +183,10 @@ Global
 		{6CD51E84-2AF9-4932-8E1A-8C3CB0620A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD51E84-2AF9-4932-8E1A-8C3CB0620A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CD51E84-2AF9-4932-8E1A-8C3CB0620A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -201,6 +209,7 @@ Global
 		{BFA6CF05-1974-46EF-9AC7-2D26BCC16408} = {B0F1C6CD-CC76-4896-B4C7-B86457C46FB0}
 		{4D963C92-333C-4C04-A57A-DDE75C7E26B9} = {29B13229-0F17-462C-9279-A173EBF7C8CD}
 		{6CD51E84-2AF9-4932-8E1A-8C3CB0620A46} = {5B7691DE-04DF-4C53-9D5E-99F46A4EA038}
+		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC} = {4A4DD9A3-2F65-4850-BAC7-B46E452CAE30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81DB2757-9825-4E40-BED1-D56BB12669BE}
