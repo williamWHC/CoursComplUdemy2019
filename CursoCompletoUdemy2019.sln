@@ -77,6 +77,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExpressãoCondcionalTernár
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressãoTernaria01", "ExpressãoTernaria01\ExpressãoTernaria01.csproj", "{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FuncoesDeManipulacaoDeString", "FuncoesDeManipulacaoDeString", "{1B8342BF-5A69-4832-9E45-9AC850707771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncoesParaManipulacaoString", "FuncoesParaManipulacaoString\FuncoesParaManipulacaoString.csproj", "{FFEABD0E-2C80-4098-8DF9-0AA029DDED6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +191,10 @@ Global
 		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEABD0E-2C80-4098-8DF9-0AA029DDED6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEABD0E-2C80-4098-8DF9-0AA029DDED6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEABD0E-2C80-4098-8DF9-0AA029DDED6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEABD0E-2C80-4098-8DF9-0AA029DDED6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -210,6 +218,7 @@ Global
 		{4D963C92-333C-4C04-A57A-DDE75C7E26B9} = {29B13229-0F17-462C-9279-A173EBF7C8CD}
 		{6CD51E84-2AF9-4932-8E1A-8C3CB0620A46} = {5B7691DE-04DF-4C53-9D5E-99F46A4EA038}
 		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC} = {4A4DD9A3-2F65-4850-BAC7-B46E452CAE30}
+		{FFEABD0E-2C80-4098-8DF9-0AA029DDED6F} = {1B8342BF-5A69-4832-9E45-9AC850707771}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81DB2757-9825-4E40-BED1-D56BB12669BE}
