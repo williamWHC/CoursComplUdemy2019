@@ -11,7 +11,7 @@ namespace DateTimeDataEHora
     {
         static void Main(string[] args)
         {
-            DateTime d1 = DateTime.Now;
+            DateTime d1 = DateTime.Now; //devolve o instante atual do sistema
 
             //Imprime a data atual e a Hora atual
             Console.WriteLine(d1);
@@ -24,7 +24,9 @@ namespace DateTimeDataEHora
             DateTime d3 = new DateTime(2019, 09, 30, 21, 50, 03);   //date the time 
             DateTime d4 = new DateTime(2019, 09, 05, 13, 45, 20, 500);
 
-            DateTime d5 = DateTime.Now;     //New Time 
+            //DateTime time com propriedades 
+
+            DateTime d5 = DateTime.Now;     //New Time pega o horario atual do sistema
             DateTime d6 = DateTime.Today;   //Date local, time zero 
             DateTime d7 = DateTime.UtcNow;  //Horario Global
    
@@ -36,7 +38,7 @@ namespace DateTimeDataEHora
             Console.WriteLine(d6);
             Console.WriteLine(d7);
 
-            //Utilizando os Parse 
+            //Utilizando os Parse converte o padrão de banco de dados para padrão brasileiro
             DateTime d8 = DateTime.Parse("2000-10-05");
             DateTime d9 = DateTime.Parse("2001-11-10 13:20:58");
 
@@ -44,7 +46,7 @@ namespace DateTimeDataEHora
             DateTime d10 = DateTime.Parse("17/02/1991");
             DateTime d11 = DateTime.Parse("17/02/1991 17:02:51");
 
-            DateTime d12 = DateTime.ParseExact("1991-02-17", "yyyy-MM-dd", CultureInfo.InvariantCulture);
+            DateTime d12 = DateTime.ParseExact("1991-02-17", "yyyy-MM-dd", CultureInfo.InvariantCulture); //No parserExact se deve informar como esta reprensentado a informação (Mascara de formatação)
             DateTime d13 = DateTime.ParseExact("17/02/1991 13:05:58", "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
 
 
