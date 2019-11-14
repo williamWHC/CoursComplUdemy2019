@@ -85,6 +85,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DateTime-Data e hora", "Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTime.csproj", "{2E177328-EB00-480A-B534-9F521C6F43D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpan", "TimeSpan\TimeSpan.csproj", "{C293E75E-E39C-401F-A911-D4174F394F13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{2E177328-EB00-480A-B534-9F521C6F43D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E177328-EB00-480A-B534-9F521C6F43D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E177328-EB00-480A-B534-9F521C6F43D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C293E75E-E39C-401F-A911-D4174F394F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C293E75E-E39C-401F-A911-D4174F394F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C293E75E-E39C-401F-A911-D4174F394F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C293E75E-E39C-401F-A911-D4174F394F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,6 +234,7 @@ Global
 		{498BFB0E-F871-45DA-BEC4-DCFAA9BE5EAC} = {4A4DD9A3-2F65-4850-BAC7-B46E452CAE30}
 		{FFEABD0E-2C80-4098-8DF9-0AA029DDED6F} = {1B8342BF-5A69-4832-9E45-9AC850707771}
 		{2E177328-EB00-480A-B534-9F521C6F43D0} = {6E62F91E-A9FB-4A3C-9AA6-538DBA36773A}
+		{C293E75E-E39C-401F-A911-D4174F394F13} = {6E62F91E-A9FB-4A3C-9AA6-538DBA36773A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81DB2757-9825-4E40-BED1-D56BB12669BE}
