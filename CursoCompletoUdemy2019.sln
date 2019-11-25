@@ -95,6 +95,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PropriedadeTimeSpan", "Prop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstTimeSpan", "FirstTimeSpan\FirstTimeSpan.csproj", "{4A6F8988-E48C-4250-8C59-778024F096B8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnumeraçõesEntities", "EnumeraçõesEntities", "{F7262B43-C044-42A4-8C4E-C0F6F1503328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurseEntities", "CurseEntities\CurseEntities.csproj", "{20088C09-C7B7-48DB-B4CA-96DA046A1999}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +229,10 @@ Global
 		{4A6F8988-E48C-4250-8C59-778024F096B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6F8988-E48C-4250-8C59-778024F096B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6F8988-E48C-4250-8C59-778024F096B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20088C09-C7B7-48DB-B4CA-96DA046A1999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20088C09-C7B7-48DB-B4CA-96DA046A1999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20088C09-C7B7-48DB-B4CA-96DA046A1999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20088C09-C7B7-48DB-B4CA-96DA046A1999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -254,6 +262,7 @@ Global
 		{77FFADB6-FF8A-434A-8DBF-8E97144DCCE5} = {6E62F91E-A9FB-4A3C-9AA6-538DBA36773A}
 		{E5B85D15-F39E-4C57-8010-10CBD89461EC} = {77FFADB6-FF8A-434A-8DBF-8E97144DCCE5}
 		{4A6F8988-E48C-4250-8C59-778024F096B8} = {00DE42D6-A56E-4143-B12A-061C86354662}
+		{20088C09-C7B7-48DB-B4CA-96DA046A1999} = {F7262B43-C044-42A4-8C4E-C0F6F1503328}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81DB2757-9825-4E40-BED1-D56BB12669BE}
