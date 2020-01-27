@@ -16,7 +16,6 @@ namespace ExWorker.Entities
         //Builder
         public Worker()
         {
-
         }
 
         public Worker(string name, double salarybase, WorkerLevel level, Department department)
@@ -33,18 +32,20 @@ namespace ExWorker.Entities
             Contracts.Add(contract);
         }
 
+        //Custom Methods
         public void RemoveContract(HourContract contract)
         {
             Contracts.Remove(contract);
         }
 
-        public double InCome(int year, int month)
+        public double InCome(int year, int month)   //renda
         {
             double sun = SalaryBase;
 
             foreach (HourContract contract in Contracts)
             {
                 if (contract.Date.Year == year && contract.Date.Month == month)
+
                 {
                     sun += contract.TotalValue();
                 }

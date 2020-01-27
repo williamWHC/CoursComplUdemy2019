@@ -10,10 +10,5 @@ namespace ExCotacaoMoedaMenbroEstatico
     {
         public double moeda;
         public double cotacao;
-
-
-        static 
     }
-
-
 }

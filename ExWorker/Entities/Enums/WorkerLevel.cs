@@ -6,8 +6,8 @@ namespace ExWorker.Entities.Enums
 {
     public enum WorkerLevel : int
     {
-        Junior = 0,
-        Pleno = 1,
-        Senior = 2
+        junior = 0,
+        pleno = 1,
+        senior = 2
     }
 }
