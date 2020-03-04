@@ -16,7 +16,8 @@ namespace _1methodAbstract.Entities
 
         public override double Area()
         {
-            return Math.PI * Radius * Radius;
+            return Math.PI * Radius * Radius;   //PI * RAIO AO QUADRADO para saber a cicuferencia.
         }
     }
 }
+
