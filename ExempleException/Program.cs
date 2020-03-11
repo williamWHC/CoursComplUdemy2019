@@ -24,7 +24,7 @@ namespace ExempleException
                 Console.WriteLine("Erro de multiplicação !!");
                 throw;
             }
-
+            
 
             //O tratamento de Exception por formatexception você pode apenas definir a mensagem
             //Com o função (Message) para apenas mostrar para o usuario a mensagem de erro. 
