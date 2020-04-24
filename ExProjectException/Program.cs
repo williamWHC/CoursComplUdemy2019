@@ -45,7 +45,6 @@ namespace ExProjectException
                     reservation.UpdateDates(checkIn, checkOut);
                     Console.WriteLine("RESERVATIONS: " + reservation);
                 }
-
             }
             
             
