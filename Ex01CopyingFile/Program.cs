@@ -17,11 +17,12 @@ namespace Ex01CopyingFile
                 FileInfo fileInfo = new FileInfo(sourcePath);
                 fileInfo.CopyTo(targetPath);
 
+
                 
             }
             catch (IOException e)
             { 
-                Console.WriteLine("An erro occurent");
+                Console.WriteLine("An erro occured"); //Um erro ocorreu
                 Console.WriteLine(e.Message);
                 throw;
             }
